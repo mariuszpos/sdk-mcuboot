@@ -2,6 +2,8 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
+set(CMAKE_OBJECT_PATH_MAX 4096)
+
 if(CONFIG_MCUBOOT_BOOTUTIL_LIB)
 
 zephyr_interface_library_named(MCUBOOT_BOOTUTIL)
